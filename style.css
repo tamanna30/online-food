@@ -1,0 +1,246 @@
+/* css reset */
+/* css fo navbaar */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#unique::before {
+    content: "";
+    background-color: rgb(11, 10, 10);
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    top: 0px;
+    left: 0px;
+}
+
+#unique {
+    display: flex;
+    align-items: center;
+    /* position: relative; */
+    position: sticky;
+    top: 0px;
+    /* background-color: aliceblue; */
+}
+
+#logo img {
+    height: 50px;
+    margin: 12px 11px;
+    /* border: 2px solid black; */
+    border-radius: 9px;
+}
+
+
+#unique ul {
+    display: flex;
+    /* text-decoration: none; */
+}
+
+#unique ul li {
+    list-style: none;
+    font-size: 1.0rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#unique ul li a {
+    color: rgb(241, 244, 248);
+    display: block;
+    text-decoration: none;
+    padding: 6px 22px;
+    border-radius: 33px;
+
+}
+
+#unique ul li a:hover {
+    color: black;
+    background-color: rgb(249, 243, 236);
+}
+
+/* home section */
+
+#home::before {
+    content: "";
+    position: absolute;
+    background: url('./restro3.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 58%;
+    z-index: -1;
+    opacity: 0.8;
+    top: 0px;
+    left: 0px;
+
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 322px;
+}
+
+#home h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#home p {
+    color: black;
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 20px 165px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.primary {
+    font-size: 3.6rem;
+    padding: 20px;
+}
+
+.btn {
+    padding: 6px 22px;
+    margin: 22px;
+    border: 2px solid rgb(247, 243, 243);
+    border-radius: 12px;
+    background-color: rgb(127, 88, 42);
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(85, 56, 24);
+}
+
+.head {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 2.7rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#services {
+    margin: 29px;
+    display: flex;
+
+}
+
+#services .box {
+    border: 2px solid black;
+    text-align: center;
+    /* width: 200px; */
+    padding: 12px 22px;
+    margin: 12px 12px;
+    border-radius: 12px;
+    background-color: rgb(244, 237, 237);
+}
+
+#services .box h2 {
+    font-size: 1.7rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#services .box p {
+    margin: 10px 2px;
+    font-size: 1.0rem;
+}
+
+#services .box img {
+    height: 122px;
+
+}
+
+/* client section */
+#client-sec {
+    height: 359px;
+    border: 4px solid black;
+    margin: 2px 22px;
+    border-radius: 9px;
+
+}
+
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 52px 2px;
+}
+
+#clients img {
+    height: 140px;
+}
+
+.client-item {
+    padding: 2px 38px;
+}
+
+/* contract */
+
+#contact {
+    position: relative;
+    /* padding: 0.3rem; */
+    /* border: 2px solid black; */
+    margin-top: 12px;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    background: url('restro.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.8;
+    top: 0px;
+    left: 0px;
+}
+
+.center {
+    text-align: center;
+}
+
+#contract-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#contract-box form {
+    width: 60%;
+    padding: 44px;
+}
+
+#contract-box label {
+    font-size: 1.3rem;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#contract-box input,
+#contract-box textarea {
+    width: 100%;
+    padding: 0.3rem;
+    border-radius: 5px;
+    margin: 0.3rem;
+    border: 2px solid black;
+
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px 22px;
+}
